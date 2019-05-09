@@ -1,0 +1,27 @@
+{
+  "compilerOptions": {
+    "target": "es5",
+    "jsx": "react",
+    "module": "ESNext",
+    "moduleResolution": "node",
+    "sourceMap": true,
+    "noEmit": false,
+    "listFiles": false,
+    "declaration": false,
+    "lib": [
+      "es6",
+      "dom"
+    ],
+    "noImplicitAny": true,
+    "noImplicitReturns": true,
+    "noImplicitThis": true,
+    "strictNullChecks": true,
+    "forceConsistentCasingInFileNames": true,
+    "skipLibCheck": true,
+    "esModuleInterop": true,
+    "outDir": "compiled"
+  },
+  "exclude": [
+    "compiled"
+  ]
+}
